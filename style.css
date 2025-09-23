@@ -1,0 +1,12 @@
+body {
+    color: #695235;
+    line-height: 1;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Franklin Gothic Medium'
+}
+h1 { color:#695235;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold
+    }
