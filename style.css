@@ -1,12 +1,40 @@
 body {
-    color: #695235;
+    color: #5a4326;
     line-height: 1;
     letter-spacing: 1px;
     word-spacing: 2px;
-    font-family: 'Franklin Gothic Medium'
+    font-family: delius;
+    text-align: left;
 }
-h1 { color:#695235;
+h1 {
+    color: #5a4326;
     text-align: center;
     text-decoration: underline;
-    font-weight: bold
-    }
+    font-weight: bold;
+    font-family: delius;
+}
+h3 {
+    text-align: center;
+}
+.maintxt {
+    color: #7e5442;
+    font-family: delius;
+}
+table {
+    text-align: center;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.form {
+    text-align: center;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.links {
+    text-align: center;
+}

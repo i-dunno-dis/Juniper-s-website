@@ -4,6 +4,11 @@
         <link rel="icon" type="image/png" href="images/favicon.png" />
         <meta charset="UTF-8" />
         <title>Home page!</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet" />
+        <!-- style sheet -->
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
@@ -15,60 +20,59 @@
                 <a href="lost-ember.html">Lost ember review!</a>
             </p>
         </center>
-        <p>
+        <p class="maintxt">
             I will be reviewing the games minecraft, palia and lost ember, as i have played all of them many times in
             the past. This page will serve as a showcase of the overall scores they received!
         </p>
 
-        <center>
-            <p>Total scores:</p>
+        <h3>Total scores:</h3>
 
-            <table border="1">
-                <tr>
-                    <th>Category</th>
-                    <th>Minecraft</th>
-                    <th>Palia</th>
-                    <th>lost ember</th>
-                </tr>
-                <tr>
-                    <td>Multiplayer</td>
-                    <td>9/10</td>
-                    <td>8/10</td>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td>Story</td>
-                    <td>5/10</td>
-                    <td>8/10</td>
-                    <td>10/10</td>
-                </tr>
-                <tr>
-                    <td>Gameplay</td>
-                    <td>10/10</td>
-                    <td>7/10</td>
-                    <td>4/10</td>
-                </tr>
-                <tr>
-                    <td>Puzzles</td>
-                    <td>N/A</td>
-                    <td>8/10</td>
-                    <td>7/10</td>
-                </tr>
-                <tr>
-                    <td>Overall</td>
-                    <td>8/10</td>
-                    <td>7/10</td>
-                    <td>6/10</td>
-                </tr>
-            </table>
-            <form>
-                <br />
-                <label for="game"> What game do you think i should review next? </label>
-                <br />
-                <input type="text" id="game" />
-                <br />
-                <input for="game" type="submit" value="Submit" />
-            </form>
-        </center>
+        <table border="1" class="center">
+            <tr>
+                <th>Category</th>
+                <th>Minecraft</th>
+                <th>Palia</th>
+                <th>lost ember</th>
+            </tr>
+            <tr>
+                <td>Multiplayer</td>
+                <td>9/10</td>
+                <td>8/10</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Story</td>
+                <td>5/10</td>
+                <td>8/10</td>
+                <td>10/10</td>
+            </tr>
+            <tr>
+                <td>Gameplay</td>
+                <td>10/10</td>
+                <td>7/10</td>
+                <td>4/10</td>
+            </tr>
+            <tr>
+                <td>Puzzles</td>
+                <td>N/A</td>
+                <td>8/10</td>
+                <td>7/10</td>
+            </tr>
+            <tr>
+                <td>Overall</td>
+                <td>8/10</td>
+                <td>7/10</td>
+                <td>6/10</td>
+            </tr>
+        </table>
+
+        <form class="form">
+            <br />
+            <label for="game"> What game do you think i should review next? </label>
+            <br />
+            <input type="text" id="game" />
+            <br />
+            <input for="game" type="submit" value="Submit" />
+        </form>
     </body>
 </html>
