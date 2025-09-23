@@ -5,6 +5,9 @@ body {
     word-spacing: 2px;
     font-family: delius;
     text-align: left;
+    background-color: #f9f4eb;
+    max-width: 800px;
+    margin: auto;
 }
 h1 {
     color: #5a4326;
@@ -33,8 +36,12 @@ table {
 .img {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 .links {
     text-align: center;
+}
+.current {
+    text-decoration: underline;
+    font-weight: bold;
 }
