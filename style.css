@@ -29,6 +29,7 @@ h3 {
 table {
     text-align: center;
 }
+
 .center {
     display: flex;
     justify-content: center;
