@@ -20,18 +20,24 @@ h1 {
     font-family: delius;
 }
 h3 {
-    text-align: center;
-}
+    text-align: center;}
+
 .maintxt {
     color: #7e5442;
     font-family: delius;
+    border: 2px solid #5a4326;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
 }
 table {
     text-align: center;
+    border-collapse: collapse;
 }
 
 .center {
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
 }
 .form {
@@ -39,8 +45,7 @@ table {
 }
 .img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 .links {
     text-align: center;
