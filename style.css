@@ -44,6 +44,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    max-width: 100%
 }
 .form {
     text-align: center;
@@ -51,6 +52,7 @@ table {
 .img {
     display: block;
     margin: auto;
+    max-width: 100%
 }
 .links {
     text-align: center;
