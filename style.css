@@ -5,13 +5,17 @@ body {
     word-spacing: 2px;
     font-family: delius;
     text-align: left;
-    background-color: #f9f4eb;
-    max-width: 800px;
-    width: 700px;
-    border: 10px solid #7e5442;
-    padding: 10px;
-    margin: auto;
+    background-color: #fdf2dd;
 }
+.box {
+    max-width: 800px;
+    width: 701px;
+    border: 5px solid #7e5442;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #efe1c5;
+    position: relative;}
 h1 {
     color: #5a4326;
     text-align: center;
@@ -23,7 +27,7 @@ h3 {
     text-align: center;}
 
 .maintxt {
-    color: #7e5442;
+    color: #5a4326;
     font-family: delius;
     border: 2px solid #5a4326;
     border-radius: 5px;
