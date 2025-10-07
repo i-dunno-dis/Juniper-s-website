@@ -9,7 +9,7 @@ body {
 }
 .box {
     max-width: 800px;
-    width: 701px;
+    width: 100%;
     border: 5px solid #7e5442;
     padding: 10px;
     margin-left: auto;
@@ -37,6 +37,7 @@ h3 {
 table {
     text-align: center;
     border-collapse: collapse;
+    width: 100%
 }
 
 .center {
@@ -58,6 +59,41 @@ table {
     text-decoration: underline;
     font-weight: bold; }
 
+.navbar {
+    text-align: center;
+    width: 100%;   
+}
+
+.navbutton {
+    background-color: #fff4df;
+    border: 2px solid #5a4326;
+    
+    padding: 2px
+}
+/*phone*/
+@media (min-width: 100px) {
+    .navbutton{
+        width: 15%;
+        margin: -5px
+    }
+}
+/*tablt*/
+@media (min-width: 800px) {
+    .navbutton{
+        display: inline-block;
+        width: 15%;
+        margin: -5px
+    }
+}
+
+/*dsktop*/
+@media (min-width: 1200px) {
+    .navbutton{
+        display: inline-block;
+        width: 100px;
+        margin: 5px;
+    }
+}
     
     
     
