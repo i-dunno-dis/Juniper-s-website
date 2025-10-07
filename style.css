@@ -71,10 +71,9 @@ table {
     padding: 2px
 }
 /*phone*/
-@media (min-width: 100px) {
-    .navbutton{
-        width: 15%;
-    }
+.navbutton{
+    width: 100%;
+    margin: -2px;
 }
 /*tablt*/
 @media (min-width: 800px) {
