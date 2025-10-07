@@ -74,7 +74,6 @@ table {
 @media (min-width: 100px) {
     .navbutton{
         width: 15%;
-        margin: -5px
     }
 }
 /*tablt*/
@@ -82,7 +81,7 @@ table {
     .navbutton{
         display: inline-block;
         width: 15%;
-        margin: -5px
+        margin: -1px
     }
 }
 
