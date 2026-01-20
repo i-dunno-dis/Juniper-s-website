@@ -74,17 +74,25 @@ table {
     padding: 2px
 }
 /*phone*/
-.navbutton{
-    width: 100%;
-    margin: -1px;
-}
-/*tablet*/
 @media (min-width: 600px) {
     .navbutton{
         display: inline-block;
         width: 15%;
-        margin: -1px
+        margin: -1px;
     }
+    .box{
+        width: 15%;
+        margin: -1px;
+    }
+}
+/*tablet*/
+@media (min-width: 800px) {
+    .navbutton{
+        display: inline-block;
+        width: 15%;
+        margin: -1px;
+    }
+
 }
 
 /*desktop*/
