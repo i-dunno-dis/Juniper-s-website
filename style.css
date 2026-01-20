@@ -78,8 +78,8 @@ table {
     width: 100%;
     margin: -1px;
 }
-/*tablt*/
-@media (min-width: 800px) {
+/*tablet*/
+@media (min-width: 600px) {
     .navbutton{
         display: inline-block;
         width: 15%;
@@ -87,7 +87,7 @@ table {
     }
 }
 
-/*dsktop*/
+/*desktop*/
 @media (min-width: 1200px) {
     .navbutton{
         display: inline-block;
