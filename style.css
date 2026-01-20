@@ -81,8 +81,8 @@ table {
         margin: -1px;
     }
     .box{
-        width: 15%;
-        margin: -1px;
+        width: auto;
+        margin: auto;
     }
 }
 /*tablet*/
