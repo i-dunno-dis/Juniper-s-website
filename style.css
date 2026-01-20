@@ -9,7 +9,6 @@ body {
 }
 .box {
     max-width: 600px;
-    width: 100%;
     border: 5px solid #7e5442;
     padding: 10px;
     margin-left: auto;
