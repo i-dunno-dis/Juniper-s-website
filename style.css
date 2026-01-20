@@ -8,8 +8,8 @@ body {
     background-color: #fdf2dd;
 }
 .box {
-    max-width: 800px;
-    width: auto;
+    max-width: 600px;
+    width: 100%;
     border: 5px solid #7e5442;
     padding: 10px;
     margin-left: auto;
